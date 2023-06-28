@@ -38,6 +38,7 @@ namespace RSDKModManager
 			// 
 			this.listBox1.FormattingEnabled = true;
 			this.listBox1.Items.AddRange(new object[] {
+            "Sonic Nexus",
             "Sonic CD",
             "Sonic 1",
             "Sonic 2",
