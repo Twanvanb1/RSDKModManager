@@ -1266,6 +1266,8 @@ namespace RSDKModManager
 				}
 			else if (exename.StartsWith("restored"))
 				tmpgame = Game.SonicCD;
+			else if (exename.StartsWith("Nexus"))
+				tmpgame = Game.SonicNexus;
 			else if (exename.StartsWith("sonicforever"))
 				tmpgame = Game.Sonic1Forever;
 			else if (exename.StartsWith("sonic2absolute"))

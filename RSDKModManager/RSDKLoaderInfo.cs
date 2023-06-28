@@ -26,6 +26,7 @@ namespace RSDKModManager
 
 	public enum Game
 	{
+		SonicNexus,
 		SonicCD,
 		Sonic1,
 		Sonic2,

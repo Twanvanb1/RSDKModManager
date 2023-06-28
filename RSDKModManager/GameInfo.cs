@@ -21,6 +21,7 @@ namespace RSDKModManager
 		{
 			GameInfo[] games =
 			{
+				new GameInfo(Game.SonicNexus, "Sonic Nexus", "snmm"),
 				new GameInfo(Game.SonicCD, "Sonic CD", "scdmm"),
 				new GameInfo(Game.Sonic1, "Sonic 1", "s1mm"),
 				new GameInfo(Game.Sonic2, "Sonic 2", "s2mm"),
