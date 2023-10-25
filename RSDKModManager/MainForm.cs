@@ -347,7 +347,7 @@ namespace RSDKModManager
 
 		private bool AddGame()
 		{
-			using (OpenFileDialog dlg = new OpenFileDialog() { DefaultExt = "exe", Filter = "RSDK EXE Files|RSDKv*.exe;restored.exe;SonicForever.exe;Sonic2Absolute.exe|All Files|*", RestoreDirectory = true, Title = "Locate the game's executable." })
+			using (OpenFileDialog dlg = new OpenFileDialog() { DefaultExt = "exe", Filter = "RSDK EXE Files|RSDKv*.exe;Nexus_64.exe;restored.exe;SonicForever.exe;Sonic2Absolute.exe|All Files|*", RestoreDirectory = true, Title = "Locate the game's executable." })
 				if (dlg.ShowDialog(this) == DialogResult.OK)
 				{
 					InstalledGame game = new InstalledGame() { Folder = Path.GetDirectoryName(dlg.FileName), EXEFile = Path.GetFileName(dlg.FileName) };
